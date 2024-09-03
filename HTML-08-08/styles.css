@@ -1,0 +1,409 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  margin: 0;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  min-width: 100%;
+}
+
+header {
+  display: flex;
+  height: 88px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+header a:nth-child(1) {
+  border: 1px solid black;
+  width: 128px;
+  height: 39px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+header section:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-weight: 500;
+}
+
+header section:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-photo {
+  background-image: url(images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  width: 100%;
+  height: 1320px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-photo p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Spectral", serif;
+  font-size: 20px;
+}
+
+.main-photo h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: 300;
+  font-family: "Spectral", serif;
+  line-height: 0px;
+}
+
+.header-text {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 600px;
+}
+
+.first-page {
+  width: 100%;
+  padding: 100px 0px;
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.image-0-text {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Spectral", serif;
+}
+
+.image-0-text h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.image-0-text p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.first-cont {
+  justify-content: left;
+  align-items: center;
+  width: 632px;
+}
+
+.second-cont {
+  display: flex;
+  width: 632px;
+  height: 575px;
+  gap: 20px;
+}
+
+.side {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+}
+
+button {
+  display: block;
+  margin: 50px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: white;
+}
+
+.side span {
+  font-size: 11px;
+}
+.side h6 {
+  font-family: "Spectral", serif;
+  font-size: 21px;
+  font-weight: 500;
+  margin: 0;
+  margin: 10px 0px;
+}
+.side p {
+  font-family: "Spectral", serif;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.brake {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 21px;
+}
+.page2 {
+  width: 100%;
+  padding: 50px 0px;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+  display: flex;
+}
+.page2-text {
+  display: grid;
+  position: relative;
+}
+.page2-text p {
+  font-family: "Brygada 1918", serif;
+  font-size: 17px;
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.page2-text span {
+  font-size: 11px;
+}
+.page2-text h1 {
+  font-family: "Spectral", serif;
+  font-size: 90px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 100px;
+}
+.photo-side {
+  display: grid;
+}
+.page3 {
+  width: 100%;
+  height: 737px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.page3 p {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: "Spectral", serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 50px 50px;
+}
+.images-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.page-4 {
+  width: 100%;
+  height: 776px;
+}
+.side2 {
+  padding: 30px 50px;
+}
+.second-cont2 {
+  display: flex;
+  height: 507px;
+  gap: 20px;
+  justify-content: center;
+}
+.page-4-header {
+  text-align: center;
+  font-family: "Spectral", serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 30px;
+  width: 100%;
+}
+.width-200 {
+  width: 200px;
+}
+.page-5 {
+  width: 100%;
+}
+.page-5 section:nth-child(1) {
+  width: 100%;
+  height: 607px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 93px;
+}
+.page-5 img {
+  height: 607px;
+}
+.page-5-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.page-5-text p:nth-child(1) {
+  font-family: "Poppins";
+  font-size: 11px;
+  padding-top: 88px;
+}
+.page-5-text p:nth-child(2) {
+  font-family: "Spectral", serif;
+  font-size: 75px;
+  line-height: 80px;
+}
+.page-5-text p:nth-child(3) {
+  font-family: "Spectral", serif;
+  font-size: 18px;
+}
+.page-5 img:nth-child(3) {
+  width: 100%;
+  height: 537px;
+}
+.page-7 {
+  background-image: url(images/header2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  width: 100%;
+  height: 1328px;
+  position: relative;
+}
+.page-7-text {
+  position: absolute;
+  padding-left: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+}
+.page-7 section p:nth-child(1) {
+  font-family: "Spectral", serif;
+  font-size: 12px;
+  color: white;
+}
+.page-7 section p:nth-child(2) {
+  font-family: "Spectral", serif;
+  font-size: 90px;
+  color: white;
+  font-weight: 300;
+  line-height: 90px;
+  margin: 0;
+}
+.page-7 section p:nth-child(3) {
+  font-family: "Spectral", serif;
+  font-size: 18px;
+  color: white;
+}
+.page-7-under {
+  font-family: "Poppins";
+  font-size: 11px;
+  position: relative;
+  bottom: 40px;
+  left: 20px;
+  color: white;
+}
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.sign-up p {
+  font-family: "Spectral", serif;
+  font-size: 21px;
+}
+.sign-up button {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+.email {
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  width: 30%;
+}
+.email input {
+  border: none;
+  font-family: "Poppins";
+  font-size: 15px;
+  color: black;
+  width: 50%;
+}
+.email ::placeholder {
+  border: none;
+  font-family: "Poppins";
+  font-size: 11px;
+  color: black;
+}
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+.check p {
+  font-family: "Spectral", serif;
+  font-size: 12px;
+  font-weight: 500;
+  gap: 10px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  border-top: 4px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.foot-1,
+.foot-2,
+.foot-3 {
+  display: flex;
+  gap: 20px;
+}
